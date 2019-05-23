@@ -1,7 +1,7 @@
 /**
  *
- * @title 主子表
- * @description 主子表(左右)
+ * @title 主子表(上下)
+ * @description 
  *
  */
 import React, { Component } from 'react';
@@ -14,7 +14,7 @@ const TableContent = Pagelayout.TableContent;
 class Demo3 extends Component {
     render() {
         return (
-            <div>
+            <div className="demo3">
                 <Pagelayout>
                     <Header>
                         我是Header区域

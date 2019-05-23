@@ -14,7 +14,7 @@ class leftContent extends Component {
         let classes = 'left-content';
         if(className)classes+=' '+className;
         return (
-            <Col className={classes} {...other} >
+            <Col className={classes} md={4} sm={6} xs={12} {...other} >
                 {this.props.children}
             </Col>
         )

@@ -1,7 +1,7 @@
 /**
  *
- * @title 主子表
- * @description 主子表(左右)
+ * @title 主子表(左右)
+ * @description 
  *
  */
 import React, { Component } from 'react';
@@ -9,6 +9,7 @@ import Pagelayout from '../../src';
 
 const Header = Pagelayout.Header;
 const SearchArea = Pagelayout.SearchArea;
+const Content = Pagelayout.Content;
 const TableContent = Pagelayout.TableContent;
 const LeftContent = Pagelayout.LeftContent;
 const RightContent = Pagelayout.RightContent;
@@ -16,7 +17,7 @@ const RightContent = Pagelayout.RightContent;
 class Demo4 extends Component {
     render() {
         return (
-            <div>
+            <div className="demo4">
                 <Pagelayout>
                     <Header>
                         我是Header区域
@@ -24,17 +25,18 @@ class Demo4 extends Component {
                     <SearchArea>
                         我是查询区域
                     </SearchArea>
-                    <LeftContent>
-                        <TableContent>
-                            我是表格区域主表
-                        </TableContent>
-                    </LeftContent>
-                    <RightContent>
-                        <TableContent>
-                            我是表格区域子表
-                        </TableContent>
-                    </RightContent>
-                   
+                    <Content>
+                        <LeftContent md={6}>
+                            <TableContent>
+                                我是表格区域主表
+                            </TableContent>
+                        </LeftContent>
+                        <RightContent md={6}>
+                            <TableContent>
+                                我是表格区域子表
+                            </TableContent>
+                        </RightContent>
+                    </Content>
                 </Pagelayout>
             </div>
         )

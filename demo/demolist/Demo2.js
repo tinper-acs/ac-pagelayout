@@ -1,7 +1,7 @@
 /**
  *
  * @title 树表/卡
- * @description 这是描述
+ * @description 
  *
  */
 import React, { Component } from 'react';
@@ -9,18 +9,20 @@ import Pagelayout from '../../src';
 
 const Header = Pagelayout.Header;
 const SearchArea = Pagelayout.SearchArea;
+const Content = Pagelayout.Content;
 const TableContent = Pagelayout.TableContent;
 const LeftContent = Pagelayout.LeftContent;
 const RightContent = Pagelayout.RightContent;
 
-class Demo1 extends Component {
+class Demo2 extends Component {
     render() {
         return (
-            <div>
+            <div className="demo2">
                 <Pagelayout>
                     <Header>
                         我是Header区域
                     </Header>
+                    <Content>
                         <LeftContent>
                             我是树区域
                         </LeftContent>
@@ -32,10 +34,10 @@ class Demo1 extends Component {
                                 我是表格区域
                             </TableContent>
                         </RightContent>
-                    
+                    </Content>
                 </Pagelayout>
             </div>
         )
     }
 }
-export default Demo1
+export default Demo2

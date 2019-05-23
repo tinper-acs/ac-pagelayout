@@ -11,7 +11,7 @@ class Header extends Component {
     }
     render() {
         let { className, children, ...other } = this.props;
-        let classes = 'title';
+        let classes = 'header';
         if(className)classes+=' '+className;
         return (
             <div className={classes} {...other} >

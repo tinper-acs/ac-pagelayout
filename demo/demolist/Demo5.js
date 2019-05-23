@@ -1,6 +1,6 @@
 /**
  *
- * @title 单表查询
+ * @title 卡表
  * @description 
  *
  */
@@ -14,13 +14,13 @@ const TableContent = Pagelayout.TableContent;
 class Demo1 extends Component {
     render() {
         return (    
-            <div className="demo1">
+            <div className="demo5">
                 <Pagelayout>
                     <Header>
                         我是Header区域
                     </Header>
                     <SearchArea>
-                        我是查询区域
+                        我是表单区域
                     </SearchArea>
                     <TableContent>
                         我是表格区域

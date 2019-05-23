@@ -14,7 +14,7 @@ class rightContent extends Component {
         let classes = 'right-content';
         if(className)classes+=' '+className;
         return (
-            <Col className={classes} {...other} >
+            <Col className={classes} md={8} sm={6} xs={12} {...other} >
                 {this.props.children}
             </Col>
         )
