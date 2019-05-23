@@ -1,0 +1,32 @@
+@import "../node_modules/tinper-bee-core/scss/minxin-variables";
+@import "../node_modules/tinper-bee-core/scss/minxin-mixins";
+
+.ac-pagelayout {
+
+    // Header
+    .title {
+        height:48px;
+        border-bottom:1px solid ;
+    }
+
+    // searchArea
+    .search-area {
+
+    }
+
+    //table展示区域
+    .table-container{
+        
+    }
+
+    //tree展示区域
+    .left-content{
+        min-width:250px;
+        display:inline-block;
+        vertical-align: top;
+    }
+
+    .right-content{ 
+        display:inline-block;
+    }
+}
