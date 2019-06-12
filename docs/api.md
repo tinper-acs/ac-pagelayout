@@ -10,7 +10,7 @@
 
 ```
 import Pagelayout from 'ac-pagelayout';
-import 'ac-pagelayout/build/Layout.css';
+import 'ac-pagelayout/build/Pagelayout.css';
 
 const Header = Pagelayout.Header;
 const SearchArea = Pagelayout.SearchArea;
