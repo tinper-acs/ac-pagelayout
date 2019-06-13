@@ -1,4 +1,4 @@
-# Pagelayout
+# Pagelayout，该组件将于一周后下线，并迁移至基础组件维护，使用请前往[bee-page-layout](http://bee.tinper.org/tinper-bee/bee-page-layout)
 
 布局组件
 
